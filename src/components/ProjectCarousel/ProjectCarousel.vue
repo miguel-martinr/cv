@@ -6,7 +6,7 @@
 
     </div>
     <div class="carousel-inner">
-      <div v-for="project in projects" class="carousel-item active">
+      <div v-for="project, index in projects" :class="'carousel-item ' + (index === 0 ? 'active' : '')">
         <div class="project-wrapper">
           <ProjectCard :project="project" />
         </div>
