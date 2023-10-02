@@ -18,6 +18,7 @@ import evaluationMode from '@/assets/evaluation_mode.gif'
               type: 'github',
               link: 'https://www.linkedin.com/in/miguel-martinr/'
             },
+            
             {
               type: 'email',
               link: 'mailto:miguel.martinr11@gmail.com'
