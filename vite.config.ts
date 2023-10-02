@@ -19,4 +19,8 @@ export default defineConfig({
   },
 
   base: "https://miguel-martinr.github.io/cv",
+  
+  build: {
+    outDir: 'build'
+  }
 })
